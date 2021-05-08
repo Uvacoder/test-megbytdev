@@ -4,7 +4,7 @@ import Link from "next/link";
 const Products = () => {
   return (
     <section className="bg-opacity-0">
-      <div className="py-6">
+      <div className="py-6 container mx-auto">
         <p className="text-4xl sm:text-5xl font-bold text-center">
           Our Products.
         </p>
@@ -21,12 +21,12 @@ const Products = () => {
               }
             />
           </div>
-          <div className="flex flex-col items-center justify-evenly text-center h-96">
+          <div className="flex flex-col sm:flex-1 items-center justify-evenly text-center h-96">
             <p className="text-4xl sm:text-6xl font-bold text-center">Tarana</p>
-            <p className="text-lg sm:text-lg text-center text-gray-600 ">
+            <p className="text-lg sm:text-lg text-center text-gray-600">
               Tarana is an online Radio Player, where you can listen to more
-              than <br /> 40000+ radio stations from across the globe <br />
-              right on your mobile device
+              than 40000+ radio stations from across the globe right on your
+              mobile device
             </p>
             <Link href="#">
               <Image
