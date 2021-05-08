@@ -1,3 +1,5 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
   mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./Components/**/*.{js,ts,jsx,tsx}"],
@@ -28,6 +30,11 @@ module.exports = {
       height: {
         98: "30rem",
         102: "34rem",
+      },
+      fontFamily: {
+        sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
+        serif: ["Montserrat", ...defaultTheme.fontFamily.serif],
+        mono: ["Montserrat", ...defaultTheme.fontFamily.mono]
       },
     },
   },
