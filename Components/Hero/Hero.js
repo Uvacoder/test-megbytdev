@@ -1,5 +1,5 @@
 import Image from "next/image";
-// import mock from "../../assets/mockupTarana.png";
+
 const Hero = () => {
   return (
     <section className=" bg-[#3F4CE0]  w-screen ">
@@ -9,7 +9,7 @@ const Hero = () => {
             We build products <br /> that humans love.
           </p>
           <button
-            className=" flex  py-2 my-6 px-4 bg-white text-black font-semibold rounded-full shadow-md
+            className="flex py-2 my-6 px-4 bg-white text-black font-semibold rounded-full shadow-md
                transform transition sm:motion-safe:hover:scale-110 duration-500 focus:outline-none"
           >
             Explore Now

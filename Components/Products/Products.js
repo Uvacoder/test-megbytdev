@@ -21,12 +21,12 @@ const Products = () => {
               }
             />
           </div>
-          <div className="flex flex-col sm:flex-1 items-center justify-evenly text-center h-96">
+          <div className="flex flex-col sm:flex-1 items-center justify-evenly text-center h-96 ">
             <p className="text-4xl sm:text-6xl font-bold text-center">Tarana</p>
-            <p className="text-lg sm:text-lg text-center text-gray-600">
-              Tarana is an online Radio Player, where you can listen to more
+            <p className="text-base sm:text-lg text-center text-gray-600">
+              Tarana is an online Radio Player launched in 2020, where you can listen to more
               than 40000+ radio stations from across the globe right on your
-              mobile device
+              mobile device.
             </p>
             <Link href="#">
               <Image
