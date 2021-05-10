@@ -5,8 +5,8 @@ const Products = () => {
   return (
     <section className="bg-opacity-0">
       <div className="py-6 container mx-auto">
-        <p className="text-4xl sm:text-5xl font-bold text-center">
-          Our Products.
+        <p className="text-4xl sm:text-5xl font-bold text-center underline">
+          Our Products
         </p>
       </div>
       <div>
@@ -23,10 +23,10 @@ const Products = () => {
           </div>
           <div className="flex flex-col sm:flex-1 items-center justify-evenly text-center h-96 ">
             <p className="text-4xl sm:text-6xl font-bold text-center">Tarana</p>
-            <p className="text-base sm:text-lg text-center text-gray-600">
-              Tarana is an online Radio Player launched in 2020, where you can listen to more
-              than 40000+ radio stations from across the globe right on your
-              mobile device.
+            <p className="text-base sm:text-lg text-center text-gray-600 font-medium px-2">
+              Tarana is an online Radio Player launched in 2020, where you can
+              listen to more than 40000+ radio stations from across the globe
+              right on your mobile device.
             </p>
             <Link href="#">
               <Image

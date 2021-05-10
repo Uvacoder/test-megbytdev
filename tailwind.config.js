@@ -6,11 +6,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
+      backgroundImage: {
         "hero-pattern": "url('/bg.svg')",
         "phone-svg": "url('/phoneblob.svg')",
-        products: "url('/Confetti-Doodles.svg')",
-      }),
+        "products": "url('/Confetti-Doodles.svg')",
+      },
       animation: {
         float: "float 4s ease-in-out 0s infinite",
       },
