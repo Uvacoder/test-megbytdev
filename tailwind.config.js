@@ -10,6 +10,7 @@ module.exports = {
         "hero-pattern": "url('/bg.svg')",
         "phone-svg": "url('/phoneblob.svg')",
         "products": "url('/Confetti-Doodles.svg')",
+        "footer-bubble": "url('/footer-blob.svg')",
       },
       animation: {
         float: "float 4s ease-in-out 0s infinite",

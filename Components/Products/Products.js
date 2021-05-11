@@ -1,9 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Products = () => {
   return (
-    <section className="bg-opacity-0">
+    <section className="bg-opacity-0 " id="products">
       <div className="py-6 container mx-auto">
         <p className="text-4xl sm:text-5xl font-bold text-center underline">
           Our Products
@@ -16,9 +15,7 @@ const Products = () => {
               width={700}
               height={700}
               alt="Tarana app mockup"
-              src={
-                "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/assets/mockupTarana.png"
-              }
+              src={"/blackPhone.png"}
             />
           </div>
           <div className="flex flex-col sm:flex-1 items-center justify-evenly text-center h-96 ">
@@ -28,7 +25,10 @@ const Products = () => {
               listen to more than 40000+ radio stations from across the globe
               right on your mobile device.
             </p>
-            <Link href="#">
+            <a
+              href="https://play.google.com/store/apps/details?id=dev.megabyt.taranaradio&hl=en_IN&gl=IN"
+              target="_blank"
+            >
               <Image
                 className="cursor-pointer"
                 width={265}
@@ -38,7 +38,7 @@ const Products = () => {
                   "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/320px-Google_Play_Store_badge_EN.svg.png"
                 }
               />
-            </Link>
+            </a>
           </div>
         </div>
       </div>
