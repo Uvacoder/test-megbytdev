@@ -15,7 +15,9 @@ const Products = () => {
               width={700}
               height={700}
               alt="Tarana app mockup"
-              src={"/blackPhone.png"}
+              src={
+                "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/blackPhone.png"
+              }
             />
           </div>
           <div className="flex flex-col sm:flex-1 items-center justify-evenly text-center h-96 ">
@@ -35,7 +37,7 @@ const Products = () => {
                 height={74}
                 alt="Tarana app mockup"
                 src={
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/320px-Google_Play_Store_badge_EN.svg.png"
+                  "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/playStore.svg"
                 }
               />
             </a>

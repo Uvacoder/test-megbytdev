@@ -13,7 +13,9 @@ const Footer = () => {
           width={400}
           height={400}
           alt="Tarana app mockup"
-          src="/footer-blob.svg"
+          src={
+            "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/footer-blob.svg"
+          }
         />
       </div>
       <div className="absolute -right-40 -bottom-40 ">
@@ -22,7 +24,9 @@ const Footer = () => {
           width={400}
           height={400}
           alt="Tarana app mockup"
-          src={"/footer-blob.svg"}
+          src={
+            "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/footer-blob.svg"
+          }
         />
       </div>
       <div
@@ -32,7 +36,9 @@ const Footer = () => {
         <div className="h-full flex flex-1 justify-center mt-4 z-10">
           <div className="logo text-center">
             <Image
-              src={"/whiteLogo.png"}
+              src={
+                "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/whiteLogo.png"
+              }
               width={80}
               height={60}
               alt="Megabyt logo"

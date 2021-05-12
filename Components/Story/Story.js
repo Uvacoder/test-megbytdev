@@ -21,7 +21,9 @@ const Story = () => {
           width={700}
           height={700}
           alt="Tarana app mockup"
-          src={"/story.svg"}
+          src={
+            "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/story.svg"
+          }
         />
       </div>
     </section>

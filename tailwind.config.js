@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
   mode: "jit",
@@ -7,10 +7,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('/bg.svg')",
-        "phone-svg": "url('/phoneblob.svg')",
-        "products": "url('/Confetti-Doodles.svg')",
-        "footer-bubble": "url('/footer-blob.svg')",
+        "hero-pattern":
+          "url('https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/bg.svg')",
+        "phone-svg":
+          "url('https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/phoneblob.svg')",
+        products:
+          "url('https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/Confetti-Doodles.svg')",
       },
       animation: {
         float: "float 4s ease-in-out 0s infinite",
@@ -35,7 +37,7 @@ module.exports = {
       fontFamily: {
         sans: ["Montserrat", ...defaultTheme.fontFamily.sans],
         serif: ["Montserrat", ...defaultTheme.fontFamily.serif],
-        mono: ["Montserrat", ...defaultTheme.fontFamily.mono]
+        mono: ["Montserrat", ...defaultTheme.fontFamily.mono],
       },
     },
   },

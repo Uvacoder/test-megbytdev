@@ -7,7 +7,9 @@ const Nav = () => {
       <div className="flex flex-col sm:flex-row justify-evenly sm:justify-evenly sm:px-20 sm:items-center py-2 sm:py-8 bg-[#3F4CE0] text-white ">
         <div className="flex justify-center items-center">
           <Image
-            src="/whiteLogo.png"
+            src={
+              "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/whiteLogo.png"
+            }
             width={50}
             height={40}
             alt="Megabyt logo"
