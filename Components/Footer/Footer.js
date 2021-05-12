@@ -1,15 +1,19 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#222831] text-white relative overflow-hidden" id="contacts">
+    <footer
+      className="bg-[#222831] text-white relative overflow-hidden"
+      id="contacts"
+    >
       <div className="absolute -left-40 -top-40 hidden sm:block">
         <Image
           className="sm:opacity-40"
           width={400}
           height={400}
           alt="Tarana app mockup"
-          src={"/footer-blob.svg"}
+          src="/footer-blob.svg"
         />
       </div>
       <div className="absolute -right-40 -bottom-40 ">
@@ -25,7 +29,22 @@ const Footer = () => {
         className="flex  sm:h-96  container mx-auto flex-col sm:flex-row flex-
           wrap justify-evenly py-4 px-4"
       >
-        <div className="h-full flex flex-1 justify-center mt-4 z-10">Megabyt</div>
+        <div className="h-full flex flex-1 justify-center mt-4 z-10">
+          <div className="logo text-center">
+            <Image
+              src={"/whiteLogo.png"}
+              width={80}
+              height={60}
+              alt="Megabyt logo"
+            />
+            <div>
+              <p className="text-sm">
+                We build products that humans love. <br />
+                Now building Tarana.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="h-full flex flex-col  flex-1 mt-4 items-start sm:items-center">
           <h2 className="underline">Contact Us</h2>
           <ul className="py-2 text-sm text-gray-400">
@@ -65,19 +84,9 @@ const Footer = () => {
           <h2 className="underline">Quicklinks</h2>
           <ul className="py-2 text-sm text-gray-400">
             <li className="py-2 hover:text-white">
-              <a href="https://www.facebook.com/megabyt.dev/" target="_blank">
+              <Link href="/contributors" target="_blank">
                 Contributors
-              </a>
-            </li>
-            <li className="py-2 hover:text-white">
-              <a href="https://t.me/joinchat/GFqisABlUf74WTSI" target="_blank">
-                Telegram
-              </a>
-            </li>
-            <li className="py-2 hover:text-white">
-              <a href="https://github.com/megabyt-dev" target="_blank">
-                Github
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

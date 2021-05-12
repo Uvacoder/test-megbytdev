@@ -1,6 +1,6 @@
 import Nav from "../Components/Nav/Nav"
 
-const About = () => {
+const Contributors = () => {
   return (
     <div>
       <Nav></Nav>
@@ -8,4 +8,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Contributors
