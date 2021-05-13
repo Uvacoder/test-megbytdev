@@ -30,7 +30,7 @@ const Footer = () => {
         />
       </div>
       <div
-        className="flex  sm:h-96  container mx-auto flex-col sm:flex-row flex-
+        className="flex  sm:h-80  container mx-auto flex-col sm:flex-row flex-
           wrap justify-evenly py-4 px-4"
       >
         <div className="h-full flex flex-1 justify-center mt-4 z-10">
@@ -45,8 +45,8 @@ const Footer = () => {
             />
             <div>
               <p className="text-sm">
-                We build products that humans love. <br />
-                Now building Tarana.
+                We build products that humans love.
+                with a vision to build something interesting for the world.
               </p>
             </div>
           </div>
