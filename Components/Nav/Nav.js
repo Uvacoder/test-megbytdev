@@ -30,7 +30,6 @@ const Nav = () => {
             }}
           >
             <Image
-              className
               src={menuOpened ? "/close.svg" : "/menu.svg"}
               width={50}
               height={40}
