@@ -45,8 +45,8 @@ const Footer = () => {
             />
             <div>
               <p className="text-sm">
-                We build products that humans love.
-                with a vision to build something interesting for the world.
+                We build products that humans love. with a vision to build
+                something interesting for the world.
               </p>
             </div>
           </div>
@@ -90,8 +90,11 @@ const Footer = () => {
           <h2 className="underline">Quicklinks</h2>
           <ul className="py-2 text-sm text-gray-400">
             <li className="py-2 hover:text-white">
-              <Link href="/contributors" target="_blank">
-                Contributors
+              <Link
+                href="https://play.google.com/store/apps/details?id=dev.megabyt.taranaradio&hl=en_IN&gl=US"
+                target="_blank"
+              >
+                Tarana Radio
               </Link>
             </li>
           </ul>
