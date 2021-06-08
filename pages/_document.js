@@ -10,7 +10,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <title>Megabyt - Awesome products for humans</title>
           <meta name="title" content="Megabyt - Awesome products for humans" />
           <meta property="fb:app_id" content="431250278255325" />
           <meta
@@ -55,7 +54,6 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300&display=swap"
             rel="stylesheet"
           />
-          <title>Megabyt</title>
         </Head>
         <body>
           <Main />
