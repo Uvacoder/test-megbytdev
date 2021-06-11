@@ -9,7 +9,7 @@ const Hero = () => {
           <p className="text-4xl sm:text-6xl font-bold text-center">
             We build products <br /> that humans love.
           </p>
-          <Link href="#products">
+          <Link href="#products" rel="noopener noreferrer">
             <button
               className="flex py-2 my-6 px-4 bg-white text-black font-semibold rounded-full shadow-md
                transform transition sm:motion-safe:hover:scale-110 duration-500 focus:outline-none"

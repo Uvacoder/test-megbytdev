@@ -40,16 +40,16 @@ const Nav = () => {
         <div className="hidden sm:block">
           <ul className="flex flex-row sm:space-x-12 lg:space-x-14 justify-evenly text-center font-medium">
             <li>
-              <Link href="/">Home</Link>
+              <Link  rel="noopener noreferrer" href="/">Home</Link>
             </li>
             <li>
-              <Link href="#products">Our Products</Link>
+              <Link  rel="noopener noreferrer" href="#products">Our Products</Link>
             </li>
             <li>
-              <Link href="#story">Our Story</Link>
+              <Link  rel="noopener noreferrer" href="#story">Our Story</Link>
             </li>
             <li>
-              <Link href="#contacts">Contact Us</Link>
+              <Link  rel="noopener noreferrer" href="#contacts">Contact Us</Link>
             </li>
           </ul>
         </div>
@@ -62,7 +62,7 @@ const Nav = () => {
                   closeMenu();
                 }}
               >
-                <Link className="block" href="/">
+                <Link  rel="noopener noreferrer" className="block" href="/">
                   Home
                 </Link>
               </li>
@@ -72,7 +72,7 @@ const Nav = () => {
                   closeMenu();
                 }}
               >
-                <Link href="#products">Our Products</Link>
+                <Link  rel="noopener noreferrer" href="#products">Our Products</Link>
               </li>
               <li
                 className="py-2 block"
@@ -80,7 +80,7 @@ const Nav = () => {
                   closeMenu();
                 }}
               >
-                <Link href="#story">Our Story</Link>
+                <Link  rel="noopener noreferrer" href="#story">Our Story</Link>
               </li>
               <li
                 className="py-2 block"
@@ -88,7 +88,7 @@ const Nav = () => {
                   closeMenu();
                 }}
               >
-                <Link href="#contacts">Contact Us</Link>
+                <Link  rel="noopener noreferrer" href="#contacts">Contact Us</Link>
               </li>
             </ul>
           </div>

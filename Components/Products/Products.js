@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Products = () => {
   return (
@@ -27,9 +28,10 @@ const Products = () => {
               listen to more than 40000+ radio stations from across the globe
               right on your mobile device.
             </p>
-            <a
+            <Link
               href="https://play.google.com/store/apps/details?id=dev.megabyt.taranaradio&hl=en_IN&gl=IN"
               target="_blank"
+              rel="noopener noreferrer"
             >
               <Image
                 className="cursor-pointer"
@@ -40,7 +42,7 @@ const Products = () => {
                   "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/playStore.svg"
                 }
               />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
