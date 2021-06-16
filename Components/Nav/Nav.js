@@ -20,6 +20,7 @@ const Nav = () => {
               width={50}
               height={40}
               alt="Megabyt logo"
+              placeholder="blur"
             />
             <span className="sm:hidden text-2xl font-semibold mx-2">Megabyt</span>
           </div>
@@ -34,6 +35,7 @@ const Nav = () => {
               width={50}
               height={40}
               alt="hamburger menu button"
+              placeholder="blur"
             />
           </div>
         </div>

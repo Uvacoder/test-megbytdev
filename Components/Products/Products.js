@@ -32,6 +32,7 @@ const Products = () => {
               href="https://play.google.com/store/apps/details?id=dev.megabyt.taranaradio&hl=en_IN&gl=IN"
               target="_blank"
               rel="noopener noreferrer"
+              placeholder="blur"
             >
               <Image
                 className="cursor-pointer"
@@ -41,6 +42,7 @@ const Products = () => {
                 src={
                   "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/playStore.svg"
                 }
+                placeholder="blur"
               />
             </Link>
           </div>

@@ -24,6 +24,7 @@ const Story = () => {
           src={
             "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/story.svg"
           }
+          placeholder="blur"
         />
       </div>
     </section>

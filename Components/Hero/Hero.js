@@ -27,6 +27,7 @@ const Hero = () => {
             src={
               "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/assets/mockupTarana.png"
             }
+            placeholder="blur"
           />
         </div>
       </div>

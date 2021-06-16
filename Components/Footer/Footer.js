@@ -16,6 +16,7 @@ const Footer = () => {
           src={
             "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/footer-blob.svg"
           }
+          placeholder="blur"
         />
       </div>
       <div className="absolute -right-40 -bottom-40 ">
@@ -27,6 +28,7 @@ const Footer = () => {
           src={
             "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/footer-blob.svg"
           }
+          placeholder="blur"
         />
       </div>
       <div
@@ -42,6 +44,7 @@ const Footer = () => {
               width={80}
               height={60}
               alt="Megabyt logo"
+              placeholder="blur"
             />
             <div>
               <p className="text-sm">
