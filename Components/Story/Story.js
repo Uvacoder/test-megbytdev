@@ -10,10 +10,10 @@ const Story = () => {
       </div>
       <div>
         <p className="text-base sm:text-lg text-center text-gray-600 font-medium sm:w-9/12 mx-auto px-2">
-          It all started when three friends decided to build
-          something that would be loved by all, and thus Tarana was
-          conceptualized and lot of new developments are happening, with a
-          vision to build something interesting for the world.
+          It all started when three friends decided to build something that
+          would be loved by all, and thus Tarana was conceptualized and lot of
+          new developments are happening, with a vision to build something
+          interesting for the world.
         </p>
       </div>
       <div className="flex justify-center">
@@ -25,6 +25,9 @@ const Story = () => {
             "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/story.svg"
           }
           placeholder="blur"
+          blurDataURL={
+            "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/story.svg"
+          }
         />
       </div>
     </section>

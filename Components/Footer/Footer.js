@@ -17,6 +17,9 @@ const Footer = () => {
             "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/footer-blob.svg"
           }
           placeholder="blur"
+          blurDataURL={
+            "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/footer-blob.svg"
+          }
         />
       </div>
       <div className="absolute -right-40 -bottom-40 ">
@@ -29,6 +32,9 @@ const Footer = () => {
             "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/footer-blob.svg"
           }
           placeholder="blur"
+          blurDataURL={
+            "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/footer-blob.svg"
+          }
         />
       </div>
       <div
@@ -45,6 +51,9 @@ const Footer = () => {
               height={60}
               alt="Megabyt logo"
               placeholder="blur"
+              blurDataURL={
+                "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/whiteLogo.png"
+              }
             />
             <div>
               <p className="text-sm">

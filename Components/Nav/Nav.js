@@ -21,8 +21,13 @@ const Nav = () => {
               height={40}
               alt="Megabyt logo"
               placeholder="blur"
+              blurDataURL={
+                "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/whiteLogo.png"
+              }
             />
-            <span className="sm:hidden text-2xl font-semibold mx-2">Megabyt</span>
+            <span className="sm:hidden text-2xl font-semibold mx-2">
+              Megabyt
+            </span>
           </div>
           <div
             className="sm:hidden"
@@ -36,22 +41,31 @@ const Nav = () => {
               height={40}
               alt="hamburger menu button"
               placeholder="blur"
+              blurDataURL={menuOpened ? "/close.svg" : "/menu.svg"}
             />
           </div>
         </div>
         <div className="hidden sm:block">
           <ul className="flex flex-row sm:space-x-12 lg:space-x-14 justify-evenly text-center font-medium">
             <li>
-              <Link  rel="noopener noreferrer" href="/">Home</Link>
+              <Link rel="noopener noreferrer" href="/">
+                Home
+              </Link>
             </li>
             <li>
-              <Link  rel="noopener noreferrer" href="#products">Our Products</Link>
+              <Link rel="noopener noreferrer" href="#products">
+                Our Products
+              </Link>
             </li>
             <li>
-              <Link  rel="noopener noreferrer" href="#story">Our Story</Link>
+              <Link rel="noopener noreferrer" href="#story">
+                Our Story
+              </Link>
             </li>
             <li>
-              <Link  rel="noopener noreferrer" href="#contacts">Contact Us</Link>
+              <Link rel="noopener noreferrer" href="#contacts">
+                Contact Us
+              </Link>
             </li>
           </ul>
         </div>
@@ -64,7 +78,7 @@ const Nav = () => {
                   closeMenu();
                 }}
               >
-                <Link  rel="noopener noreferrer" className="block" href="/">
+                <Link rel="noopener noreferrer" className="block" href="/">
                   Home
                 </Link>
               </li>
@@ -74,7 +88,9 @@ const Nav = () => {
                   closeMenu();
                 }}
               >
-                <Link  rel="noopener noreferrer" href="#products">Our Products</Link>
+                <Link rel="noopener noreferrer" href="#products">
+                  Our Products
+                </Link>
               </li>
               <li
                 className="py-2 block"
@@ -82,7 +98,9 @@ const Nav = () => {
                   closeMenu();
                 }}
               >
-                <Link  rel="noopener noreferrer" href="#story">Our Story</Link>
+                <Link rel="noopener noreferrer" href="#story">
+                  Our Story
+                </Link>
               </li>
               <li
                 className="py-2 block"
@@ -90,7 +108,9 @@ const Nav = () => {
                   closeMenu();
                 }}
               >
-                <Link  rel="noopener noreferrer" href="#contacts">Contact Us</Link>
+                <Link rel="noopener noreferrer" href="#contacts">
+                  Contact Us
+                </Link>
               </li>
             </ul>
           </div>

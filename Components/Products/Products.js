@@ -19,6 +19,10 @@ const Products = () => {
               src={
                 "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/blackPhone.png"
               }
+              placeholder="blur"
+              blurDataURL={
+                "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/blackPhone.png"
+              }
             />
           </div>
           <div className="flex flex-col sm:flex-1 items-center justify-evenly text-center h-96 ">
@@ -43,6 +47,9 @@ const Products = () => {
                   "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/playStore.svg"
                 }
                 placeholder="blur"
+                blurDataURL={
+                  "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/public/playStore.svg"
+                }
               />
             </Link>
           </div>

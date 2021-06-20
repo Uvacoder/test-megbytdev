@@ -4,7 +4,7 @@ import Link from "next/link";
 const Hero = () => {
   return (
     <section className=" bg-[#3F4CE0]  w-screen ">
-      <div className=" container mx-auto md:bg-hero-pattern  text-white flex flex-col sm:flex-row justify-between items-center bg-no-repeat bg-contain">
+      <div className=" container mx-auto md:bg-hero-pattern text-white flex flex-col sm:flex-row justify-between items-center bg-no-repeat bg-contain">
         <div className="flex flex-col flex-1 items-center justify-center text-center py-10 ">
           <p className="text-4xl sm:text-6xl font-bold text-center">
             We build products <br /> that humans love.
@@ -28,6 +28,9 @@ const Hero = () => {
               "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/assets/mockupTarana.png"
             }
             placeholder="blur"
+            blurDataURL={
+              "https://cdn.statically.io/gh/afkcodes/megbytdev-web/main/assets/mockupTarana.png"
+            }
           />
         </div>
       </div>
