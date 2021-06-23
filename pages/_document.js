@@ -10,8 +10,6 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <script src="//cdn.speedr.io/speeder.js"></script>
-          <script>speeder('f64d861e','747');</script>
           <meta name="title" content="Megabyt - Awesome products for humans" />
           <meta property="fb:app_id" content="431250278255325" />
           <meta
@@ -29,7 +27,10 @@ class MyDocument extends Document {
             property="og:description"
             content="We build products that humans love. with a vision to build something interesting for the world."
           />
-          <meta property="og:image" content="/megabyt.jpeg" />
+          <meta
+            property="og:image"
+            content="/megabyt.jpeg"
+          />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
 
@@ -43,7 +44,10 @@ class MyDocument extends Document {
             property="twitter:description"
             content="We build products that humans love. with a vision to build something interesting for the world."
           />
-          <meta property="twitter:image" content="/megabyt.jpeg" />
+          <meta
+            property="twitter:image"
+            content="/megabyt.jpeg"
+          />
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
