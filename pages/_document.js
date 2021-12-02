@@ -27,10 +27,7 @@ class MyDocument extends Document {
             property="og:description"
             content="We build products that humans love. with a vision to build something interesting for the world."
           />
-          <meta
-            property="og:image"
-            content="/megabyt.jpeg"
-          />
+          <meta property="og:image" content="/megabyt.jpeg" />
           <meta property="og:image:width" content="1200" />
           <meta property="og:image:height" content="630" />
 
@@ -44,12 +41,8 @@ class MyDocument extends Document {
             property="twitter:description"
             content="We build products that humans love. with a vision to build something interesting for the world."
           />
-          <meta
-            property="twitter:image"
-            content="/megabyt.jpeg"
-          />
+          <meta property="twitter:image" content="/megabyt.jpeg" />
 
-          <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300&display=swap"
             rel="stylesheet"
